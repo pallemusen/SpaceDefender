@@ -1,0 +1,52 @@
+----- IDEER TIL SPIL -------
+* Power-ups (skjold, rate-of-fire boost, ekstra HP etc.)
+* level select på rum-billede (i non-compiling images-mappen)
+* asteroider
+* boss levels (m. health bars)
+* vælge fly fra main menu 
+* butik til opgradering af fly og våben
+* Healthbar i stedet for "LIFE: 5" (hvid kant med rødt fyld, der gradvist forsvinder)
+* multiplayer (to-persons cooperation)
+*  brug array i stedet for arraylist? (ved mange skud sænkes farten af disse - er arrays mindre krævende?) - 
+		compilet er det fint på macbook. clear arraylists efter level
+
+* fjender (og eventuelt også vessel) skal have 3 gradient smadrede modeller - alt efter hp. 
+* gøre noget ved scoren - evt. KUN point for at dræbe, og så en bonus for hvor hurtig man var til at complete
+	lav evt. 'normeret tid' og sammenlign spillerens tid med denne, og definer bonussen herudfra
+
+* skal progress udregnes ud fra tid til sidste enemyspawn eller antal fjender tilbage???????
+
+*move vessel into neat position before super-speed 
+
+UP NEXT:
+-bosser (thomas futtog)
+-main menu med level select -> levels skal have en "completed" bool property
+-starttekst der viser lvl, med eventuel indgangsanimation (á la endAnimation()'en)
+
+#
+# 
+# VÅBENSYSTEM I TEKSTFIL 
+# evt. forskellige våben i array eller tekstfil, 
+# og så kan disse enables gennem shoppen
+# 
+# SAVEGAME I TEKSTFIL
+#
+
+
+LEVEL EDITOR m. "paint" til fjender! :) 
+Eksporter til .lvl-fil, og .png-fil og læg i userMade-mappe. 
+Menu-punkt til at indlæse userMade/eksternt data, dvs. homemade lvls
+
+
+
+# 
+# .lvl-opbygning:
+# (enemyType, spawnTime, weaponType, hp, dmg, points, shotCD, shotSpeed, movementSpeed)
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+
